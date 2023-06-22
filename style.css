@@ -1,0 +1,10 @@
+.text{
+    font-family:'MyriadPro-Regular';
+    font-size: 167.5636px;
+    text-align: center;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    border: solid 1pt red;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "svg-logo-maker",
+  "version": "1.0.0",
+  "description": "command-line application that takes in user input to generate a logo and save it as an SVG file",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sergrojas29/SVG-Logo-Maker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sergrojas29/SVG-Logo-Maker/issues"
+  },
+  "homepage": "https://github.com/Sergrojas29/SVG-Logo-Maker#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
