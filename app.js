@@ -6,22 +6,29 @@ inquirer
     .prompt([
         {
             type: 'input',
-            message: 'What is your user name?',
-            name: 'username',
+            message: 'Intials of logo (Max three Characters)?',
+            name: 'logo',
         },
         {
-            type: 'password',
-            message: 'What is your password?',
-            name: 'password',
+            type: 'input',
+            message: 'What font color for your Logos text?(ie. Hex or red,blue... lightgray)',
+            name: 'logoColor',
         },
         {
-            type: 'password',
-            message: 'Re-enter password to confirm:',
-            name: 'confirm',
+            type: 'checkbox',
+            name: 'shape',
+            message: 'Shape for background for logo',
+            choices: ['rectangle', 'circle', 'triangle',],
+        },
+        {
+            type: 'input',
+            message: 'Color for Shape for logo',
+            name: 'shapeColor',
         },
     ])
     .then((response) => {
-        const newLogo = new Svg('test', 'red', 'circle', 'blue')
+        // console.log(response);
+        const newLogo = new Svg(response.logo, response.logoColor, response.shape[0], response.shapeColor)
         fs.writeFileSync('test.svg', newLogo.template)
     }
     );

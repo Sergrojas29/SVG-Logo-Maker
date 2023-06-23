@@ -1,6 +1,6 @@
 class Svg {
     constructor(text, textcolor, shape, shapecolor) {
-        this.logo = text,
+        this.logo = text.toUpperCase(),
         this.logoColor = textcolor,
         this.shape = {
             rectangle: `
@@ -37,7 +37,7 @@ viewBox="0 0 300 200" style="enable-background:new 0 0 300 200;" xml:space="pres
 ${this.shape[shape]}
 
 <g>
-    <text x="25%" y ="75%" class="text">${this.logo}</text>
+    <text x="0%" y ="75%" class="text">${this.logo}</text>
 </g>
 
 </svg>

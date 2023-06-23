@@ -2,11 +2,11 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 viewBox="0 0 300 200" style="enable-background:new 0 0 300 200;" xml:space="preserve">
 <style type="text/css">
-    .rectangle{fill:blue;}
-    .circle{fill:blue;}
-    .triangle{fill:blue;}
+    .rectangle{fill:pink;}
+    .circle{fill:pink;}
+    .triangle{fill:pink;}
     .text{
-        fill:red;
+        fill: lightblue;
         font-family:'MyriadPro-Regular';
         font-size:167.5636px;
     }
@@ -18,7 +18,7 @@ viewBox="0 0 300 200" style="enable-background:new 0 0 300 200;" xml:space="pres
             </g>
 
 <g>
-    <text x="25%" y ="75%" class="text">test</text>
+    <text x="0%" y ="75%" class="text">TYT</text>
 </g>
 
 </svg>
