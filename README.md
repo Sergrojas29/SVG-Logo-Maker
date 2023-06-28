@@ -1,6 +1,49 @@
 # SVG-Logo-Maker
 command-line application that takes in user input to generate a logo and save it as an SVG file
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+
+#Table of Contents
+
+1. [Authors](#authors)
+    
+2. [Installation](#installation)  
+    
+4. [Demo](#demo)
+    
+
+## Authors
+
+[@Sergrojas29](https://www.github.com/Sergrojas29)
+
+
+    
+## Usage/Examples
+
+Used to create simple svg logo in the command console
+
+
+
+## Installation
+
+
+Must have node js installed on you PC 
+
+
+##Demo
+
+https://github.com/Sergrojas29/SVG-Logo-Maker/assets/128770839/a16a6771-6a6f-48c0-b739-94398ea7fc80
+
+
+https://github.com/Sergrojas29/SVG-Logo-Maker/assets/128770839/0ac63239-9d72-4d9e-a91a-ca84b1c4146d
+    
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
 
 
 User Story
